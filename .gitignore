@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Data files (private)
+*.txt
+!stop_hinglish.txt
+!requirements.txt
+*.csv
+*.xlsx
+
+# Environment variables
+.env
+.env.local
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
